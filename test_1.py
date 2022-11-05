@@ -1,7 +1,7 @@
 
 import time
-# import pytest
-# from webbrowser import BaseBrowser
+import pytest
+from webbrowser import BaseBrowser
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 driver = webdriver.Chrome()

@@ -12,6 +12,7 @@ webdriver-manager = "^3.8.4"
 black = "^22.10.0"
 chromedriver = "^2.24.1"
 pytest = "^7.2.0"
+flake8-pyproject = "^1.1.0.post0"
 
 
 [build-system]

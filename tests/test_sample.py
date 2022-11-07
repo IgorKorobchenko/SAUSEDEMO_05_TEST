@@ -15,9 +15,16 @@ def test_sample():
 
     driver.quit()
 
-# "Hello"
+def test_sample():
+    o = webdriver.FirefoxOptions()
+    o.headless = True
+    driver = webdriver.Firefox(
+        service=FirefoxService(GeckoDriverManager().install()), options=o
+    )
+    driver.get('https://www.saucedemo.com/')
 
-# "hello"
-# "Hello"
+    assert driver.title == 'Swag Labs'
+
+    driver.quit()
 
 

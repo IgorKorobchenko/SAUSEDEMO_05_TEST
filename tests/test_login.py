@@ -1,3 +1,6 @@
+#TC001.1 Login with correct username /pasword
+#Expected result User should be directed to the page https://www.saucedemo.com/inventory.html
+
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
@@ -28,8 +31,6 @@ from selenium.webdriver.common.by import By
 #
 #     driver.quit()
 
-
-
 o = webdriver.FirefoxOptions()
 o.headless = True
 driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=o)
@@ -42,3 +43,4 @@ def test_login_page():
     assert driver.current_url == 'https://www.saucedemo.com/inventory.html', 'We are on the product page. Test PASSED'
 
     driver.quit()
+#Hello

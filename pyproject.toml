@@ -13,6 +13,9 @@ black = "^22.10.0"
 chromedriver = "^2.24.1"
 pytest = "^7.2.0"
 flake8-pyproject = "^1.1.0.post0"
+poetry = "^1.2.2"
+flake8 = "^5.0.4"
+timeunit = "^1.1.0"
 
 
 [build-system]

@@ -7,7 +7,7 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 
 options = Options()
-options.headless = False
+options.headless = True
 driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
 driver.get('https://www.saucedemo.com/')
 

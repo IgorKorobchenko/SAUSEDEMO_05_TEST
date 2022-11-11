@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 
-
 def test_sample():
     o = webdriver.FirefoxOptions()
     o.headless = True

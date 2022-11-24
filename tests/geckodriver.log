@@ -308,3 +308,447 @@ DevTools listening on ws://127.0.0.1:50412/devtools/browser/e6fb0289-a890-4c4b-b
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
 1668502541563	Marionette	INFO	Stopped listening on port 50425
+1668573580933	geckodriver	INFO	Listening on 127.0.0.1:54334
+1668573584028	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilekeEyvN"
+*** You are running in headless mode.
+1668573584629	Marionette	INFO	Marionette enabled
+1668573584637	Marionette	INFO	Listening on port 54344
+Read port: 54344
+WebDriver BiDi listening on ws://127.0.0.1:54335
+1668573584759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilekeEyvN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54335/devtools/browser/2a4dbd3c-2a2b-42da-bdf5-b2d6985778da
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668573591769	Marionette	INFO	Stopped listening on port 54344
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\aharu\AppData\Local\Temp\rust_mozprofilekeEyvN\protections.sqlite
+[Parent 14024, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668573627192	geckodriver	INFO	Listening on 127.0.0.1:54403
+1668573630248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54404" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile0Vkuwi"
+*** You are running in headless mode.
+1668573630611	Marionette	INFO	Marionette enabled
+1668573630617	Marionette	INFO	Listening on port 54413
+WebDriver BiDi listening on ws://127.0.0.1:54404
+Read port: 54413
+1668573630852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile0Vkuwi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54404/devtools/browser/d7de19ea-eae7-4a3c-ae91-d0c70039b358
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668573639558	Marionette	INFO	Stopped listening on port 54413
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\aharu\AppData\Local\Temp\rust_mozprofile0Vkuwi\protections.sqlite
+1668573921711	geckodriver	INFO	Listening on 127.0.0.1:54479
+1668573924770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54480" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilegUvLjs"
+*** You are running in headless mode.
+1668573925150	Marionette	INFO	Marionette enabled
+1668573925155	Marionette	INFO	Listening on port 54489
+Read port: 54489
+WebDriver BiDi listening on ws://127.0.0.1:54480
+1668573925273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilegUvLjs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54480/devtools/browser/e778c0aa-83ff-41f9-86ee-b2d8eae0985f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668573932060	Marionette	INFO	Stopped listening on port 54489
+!!! error running onStopped callback: TypeError: callback is not a function
+1668574005559	geckodriver	INFO	Listening on 127.0.0.1:54534
+1668574008658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileKfmZ6R"
+*** You are running in headless mode.
+1668574009031	Marionette	INFO	Marionette enabled
+1668574009037	Marionette	INFO	Listening on port 54544
+WebDriver BiDi listening on ws://127.0.0.1:54535
+Read port: 54544
+1668574009221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileKfmZ6R\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54535/devtools/browser/f9bec3ab-209e-44c3-a1f6-c99891bd6b15
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668574010929	Marionette	INFO	Stopped listening on port 54544
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1668824434535	geckodriver	INFO	Listening on 127.0.0.1:51662
+1668824437598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51663" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileuhCBzY"
+*** You are running in headless mode.
+1668824439545	Marionette	INFO	Marionette enabled
+1668824439556	Marionette	INFO	Listening on port 51695
+Read port: 51695
+WebDriver BiDi listening on ws://127.0.0.1:51663
+1668824439725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileuhCBzY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51663/devtools/browser/813111a9-6e89-4b27-b6ed-ea5872bba559
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668824447296	Marionette	INFO	Stopped listening on port 51695
+!!! error running onStopped callback: TypeError: callback is not a function
+1668838731373	geckodriver	INFO	Listening on 127.0.0.1:52476
+1668838734435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileC3ezbr"
+*** You are running in headless mode.
+1668838734756	Marionette	INFO	Marionette enabled
+1668838734760	Marionette	INFO	Listening on port 52504
+Read port: 52504
+WebDriver BiDi listening on ws://127.0.0.1:52477
+1668838734842	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileC3ezbr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52477/devtools/browser/0c5dcef5-d0eb-4350-9a14-0c0321c9264e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668838741362	Marionette	INFO	Stopped listening on port 52504
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1668839960345	geckodriver	INFO	Listening on 127.0.0.1:58409
+1668839963411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58410" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileGk2s9e"
+*** You are running in headless mode.
+1668839963702	Marionette	INFO	Marionette enabled
+1668839963706	Marionette	INFO	Listening on port 58433
+Read port: 58433
+WebDriver BiDi listening on ws://127.0.0.1:58410
+1668839963778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileGk2s9e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58410/devtools/browser/da71375e-c4d8-4146-a938-37ae917ee09d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668839972971	Marionette	INFO	Stopped listening on port 58433
+1668845422594	geckodriver	INFO	Listening on 127.0.0.1:57689
+1668845425624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57690" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilejwjvLQ"
+*** You are running in headless mode.
+1668845426094	Marionette	INFO	Marionette enabled
+1668845426100	Marionette	INFO	Listening on port 57714
+Read port: 57714
+WebDriver BiDi listening on ws://127.0.0.1:57690
+1668845426209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilejwjvLQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57690/devtools/browser/d32c0c68-c06e-400f-8465-85894f47d687
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668845436041	Marionette	INFO	Stopped listening on port 57714
+!!! error running onStopped callback: TypeError: callback is not a function
+1668845793326	geckodriver	INFO	Listening on 127.0.0.1:59391
+1668845796370	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59392" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofiletJMAXt"
+*** You are running in headless mode.
+1668845796755	Marionette	INFO	Marionette enabled
+1668845796761	Marionette	INFO	Listening on port 59415
+Read port: 59415
+WebDriver BiDi listening on ws://127.0.0.1:59392
+1668845796870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofiletJMAXt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59392/devtools/browser/4b27ba3b-92c5-462e-84bd-76b6042907dd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668845806361	Marionette	INFO	Stopped listening on port 59415
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\aharu\AppData\Local\Temp\rust_mozprofiletJMAXt\protections.sqlite
+1668845828233	geckodriver	INFO	Listening on 127.0.0.1:59604
+1668845831271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59605" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilesDs2gh"
+*** You are running in headless mode.
+1668845831644	Marionette	INFO	Marionette enabled
+1668845831650	Marionette	INFO	Listening on port 59627
+Read port: 59627
+WebDriver BiDi listening on ws://127.0.0.1:59605
+1668845831774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilesDs2gh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59605/devtools/browser/98b34796-244c-45dc-9bf0-59789367b05e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668845841202	Marionette	INFO	Stopped listening on port 59627
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1668845932272	geckodriver	INFO	Listening on 127.0.0.1:60113
+1668845935311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "60114" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilexfJlUa"
+*** You are running in headless mode.
+1668845935712	Marionette	INFO	Marionette enabled
+1668845935718	Marionette	INFO	Listening on port 60141
+Read port: 60141
+WebDriver BiDi listening on ws://127.0.0.1:60114
+1668845935828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilexfJlUa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60114/devtools/browser/e1faeeee-3901-4646-b11b-6b929f6f0946
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668845945146	Marionette	INFO	Stopped listening on port 60141
+1668846353666	geckodriver	INFO	Listening on 127.0.0.1:62066
+1668846356712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62067" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileTXVIoA"
+*** You are running in headless mode.
+1668846357090	Marionette	INFO	Marionette enabled
+1668846357096	Marionette	INFO	Listening on port 62089
+Read port: 62089
+WebDriver BiDi listening on ws://127.0.0.1:62067
+1668846357224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileTXVIoA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62067/devtools/browser/7252703f-a150-4176-96e5-ff648b711f1b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668846366680	Marionette	INFO	Stopped listening on port 62089
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1668846384978	geckodriver	INFO	Listening on 127.0.0.1:62252
+1668846388020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileLb4jFR"
+*** You are running in headless mode.
+1668846388410	Marionette	INFO	Marionette enabled
+1668846388415	Marionette	INFO	Listening on port 62280
+Read port: 62280
+WebDriver BiDi listening on ws://127.0.0.1:62253
+1668846388519	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileLb4jFR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62253/devtools/browser/153e45ef-d280-416c-ae91-bc8bd1a86a3c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668846397788	Marionette	INFO	Stopped listening on port 62280
+!!! error running onStopped callback: TypeError: callback is not a function
+1668917057226	geckodriver	INFO	Listening on 127.0.0.1:56753
+1668917060297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56754" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileudxCiK"
+*** You are running in headless mode.
+1668917060685	Marionette	INFO	Marionette enabled
+1668917060691	Marionette	INFO	Listening on port 56775
+Read port: 56775
+WebDriver BiDi listening on ws://127.0.0.1:56754
+1668917060810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileudxCiK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56754/devtools/browser/12a4e1ca-6b21-45af-a8bd-fab088746783
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668917070048	Marionette	INFO	Stopped listening on port 56775
+!!! error running onStopped callback: TypeError: callback is not a function
+1668917183225	geckodriver	INFO	Listening on 127.0.0.1:57306
+1668917186283	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57307" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileQNVjVO"
+*** You are running in headless mode.
+1668917186649	Marionette	INFO	Marionette enabled
+1668917186655	Marionette	INFO	Listening on port 57332
+WebDriver BiDi listening on ws://127.0.0.1:57307
+Read port: 57332
+1668917186888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileQNVjVO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57307/devtools/browser/ac94ecb3-e466-4e0c-8bc0-7d64c4e4433f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668917196114	Marionette	INFO	Stopped listening on port 57332
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1668917230167	geckodriver	INFO	Listening on 127.0.0.1:57544
+1668917233227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileBjdNTW"
+*** You are running in headless mode.
+1668917233598	Marionette	INFO	Marionette enabled
+1668917233605	Marionette	INFO	Listening on port 57570
+Read port: 57570
+WebDriver BiDi listening on ws://127.0.0.1:57545
+1668917233739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileBjdNTW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57545/devtools/browser/ba0cbfe9-8357-4e42-8502-39c409db9a43
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668917242982	Marionette	INFO	Stopped listening on port 57570
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1668927828539	geckodriver	INFO	Listening on 127.0.0.1:59891
+1668927831627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59892" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileQIG6Vj"
+*** You are running in headless mode.
+1668927832020	Marionette	INFO	Marionette enabled
+1668927832025	Marionette	INFO	Listening on port 59913
+Read port: 59913
+WebDriver BiDi listening on ws://127.0.0.1:59892
+1668927832154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileQIG6Vj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59892/devtools/browser/762e26be-0ecb-478b-9f1e-03f2d0ae2fba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668927841772	Marionette	INFO	Stopped listening on port 59913
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\aharu\AppData\Local\Temp\rust_mozprofileQIG6Vj\protections.sqlite
+1668928059699	geckodriver	INFO	Listening on 127.0.0.1:60860
+1668928062784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "60861" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileiRSZuw"
+*** You are running in headless mode.
+1668928063160	Marionette	INFO	Marionette enabled
+1668928063165	Marionette	INFO	Listening on port 60886
+Read port: 60886
+WebDriver BiDi listening on ws://127.0.0.1:60861
+1668928063275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileiRSZuw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60861/devtools/browser/e59f1ff1-6331-4d40-8a29-4651c74419ca
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668928072573	Marionette	INFO	Stopped listening on port 60886
+!!! error running onStopped callback: TypeError: callback is not a function
+1668928100139	geckodriver	INFO	Listening on 127.0.0.1:61083
+1668928103198	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61084" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilec0Qfok"
+*** You are running in headless mode.
+1668928103589	Marionette	INFO	Marionette enabled
+1668928103595	Marionette	INFO	Listening on port 61105
+Read port: 61105
+WebDriver BiDi listening on ws://127.0.0.1:61084
+1668928103701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilec0Qfok\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61084/devtools/browser/d86c2d35-8a4f-4318-9b03-0844cf4388c1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668928110263	Marionette	INFO	Stopped listening on port 61105
+1668928331936	geckodriver	INFO	Listening on 127.0.0.1:62069
+1668928334984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62070" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilefENZSL"
+*** You are running in headless mode.
+1668928335391	Marionette	INFO	Marionette enabled
+1668928335396	Marionette	INFO	Listening on port 62091
+WebDriver BiDi listening on ws://127.0.0.1:62070
+Read port: 62091
+1668928335531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofilefENZSL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62070/devtools/browser/dfc6ba4f-c8e9-4d2e-9ba7-8bd557cc8af5
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 local data was corrupted
+console.warn: services.settings: main/pioneer-study-addons-v1 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed again InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 local data was corrupted
+console.warn: services.settings: main/pioneer-study-addons-v1 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed again InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668929797545	geckodriver	INFO	Listening on 127.0.0.1:51096
+1668929800563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileCF2Xpy"
+*** You are running in headless mode.
+1668929800945	Marionette	INFO	Marionette enabled
+1668929800951	Marionette	INFO	Listening on port 51120
+Read port: 51120
+WebDriver BiDi listening on ws://127.0.0.1:51097
+1668929801070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileCF2Xpy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51097/devtools/browser/3c4ffb68-7b98-473c-b710-dd1783a819f9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668929807747	Marionette	INFO	Stopped listening on port 51120
+!!! error running onStopped callback: TypeError: callback is not a function
+1668929906056	geckodriver	INFO	Listening on 127.0.0.1:51614
+1668929909109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51615" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile9lKXS4"
+*** You are running in headless mode.
+1668929909465	Marionette	INFO	Marionette enabled
+1668929909470	Marionette	INFO	Listening on port 51638
+WebDriver BiDi listening on ws://127.0.0.1:51615
+Read port: 51638
+1668929909664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile9lKXS4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51615/devtools/browser/e474a28e-446f-4ee7-98ca-57cea56bb535
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668929915514	Marionette	INFO	Stopped listening on port 51638
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1668929978194	geckodriver	INFO	Listening on 127.0.0.1:51974
+1668929981253	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileHRJTPq"
+*** You are running in headless mode.
+1668929981620	Marionette	INFO	Marionette enabled
+1668929981626	Marionette	INFO	Listening on port 51998
+Read port: 51998
+WebDriver BiDi listening on ws://127.0.0.1:51975
+1668929981751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofileHRJTPq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51975/devtools/browser/d4fe8001-fedd-4554-a4bf-19c78ccc6b6f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668929989917	Marionette	INFO	Stopped listening on port 51998
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1669013229177	geckodriver	INFO	Listening on 127.0.0.1:59742
+1669013232223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile8KM2fW"
+*** You are running in headless mode.
+1669013233330	Marionette	INFO	Marionette enabled
+1669013233339	Marionette	INFO	Listening on port 59769
+Read port: 59769
+WebDriver BiDi listening on ws://127.0.0.1:59743
+1669013233483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile8KM2fW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59743/devtools/browser/be40c654-6f37-4e15-8c38-a0cad209e5a4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1669013242007	Marionette	INFO	Stopped listening on port 59769
+1669013302354	geckodriver	INFO	Listening on 127.0.0.1:60113
+1669013305409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "60114" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile5KnXFr"
+*** You are running in headless mode.
+1669013305800	Marionette	INFO	Marionette enabled
+1669013305806	Marionette	INFO	Listening on port 60141
+Read port: 60141
+WebDriver BiDi listening on ws://127.0.0.1:60114
+1669013305930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile5KnXFr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60114/devtools/browser/95a046fc-9dac-4d21-8cc5-88eb18788673
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1669013314144	Marionette	INFO	Stopped listening on port 60141

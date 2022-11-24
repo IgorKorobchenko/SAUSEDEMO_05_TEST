@@ -14,4 +14,4 @@ def test_ceckCheckouinformationForm(b):
     b.find_element(By.ID, "postal-code").send_keys(zip)
 
     b.find_element(By.ID, "continue").click()
-    assert (b.current_url, expectedResult)
+    assert (b.current_url == expectedResult)

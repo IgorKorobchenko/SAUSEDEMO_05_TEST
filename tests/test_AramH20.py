@@ -35,9 +35,9 @@ def test_BuyItemsPage():
     driver.find_element(By.XPATH, "//div[@id ='shopping_cart_container']/a/span").click()
     actualResult1 = driver.current_url
     actualResult2 = driver.find_elements(By.XPATH, "//div[@id = 'cart_contents_container']//div[@class = 'cart_item']")
-
     assert (expectedResult1 == actualResult1), "wrong item information"
     assert (expectedResult2 == len(actualResult2)), "wrong number of items"
+
 
 def test_itemDetailsPage():
     expectedResult1 = "https://www.saucedemo.com/inventory-item.html?id=4"

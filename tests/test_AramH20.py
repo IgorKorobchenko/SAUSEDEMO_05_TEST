@@ -90,6 +90,7 @@ def test_checkCheckoutInformationForm():
     assert (actualResult == expectedResult)
 
 
+
 def test_checkoutInfoIncomplitFirstNameForm():
     expectedResult = "Error: First Name is required"
     last_name = "Smith"
@@ -117,6 +118,7 @@ def test_checkoutInfoIncomplitLastNameForm():
     actualResult = driver.find_element(By.XPATH, "//div[@id='checkout_info_container']/div/form/div[1]/div[4]/h3").text
     print(actualResult)
     assert (expectedResult == actualResult)
+
 
 
 def test_checkoutInfoIncomplitZIPForm():

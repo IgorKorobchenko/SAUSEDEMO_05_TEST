@@ -23,11 +23,13 @@ def g():
     driver.quit()
 
 
+
 def test_CartBox():
     expectedResult = 3
     actualResult = int(driver.find_element(By.XPATH, "//div[@id ='shopping_cart_container']/a/span").text)
     assert (expectedResult == actualResult), "wrong number of items"
     assert (driver.current_url == "https://www.saucedemo.com/inventory.html"), "We are on the product page. Test PASSED"
+
 
 def test_BuyItemsPage():
     expectedResult1 = "https://www.saucedemo.com/cart.html"
@@ -37,6 +39,7 @@ def test_BuyItemsPage():
     actualResult2 = driver.find_elements(By.XPATH, "//div[@id = 'cart_contents_container']//div[@class = 'cart_item']")
     assert (expectedResult1 == actualResult1), "wrong item information"
     assert (expectedResult2 == len(actualResult2)), "wrong number of items"
+
 
 
 def test_itemDetailsPage():
@@ -55,6 +58,7 @@ def test_removeItemsFromCart():
     driver.find_element(By.ID, "remove-sauce-labs-backpack").click()
     actualResult = int(driver.find_element(By.XPATH, "//div[@id ='shopping_cart_container']/a/span").text)
     assert (actualResult == expectedResult)
+
 
 
 def test_checkContinueShoppingButton():

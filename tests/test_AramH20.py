@@ -108,6 +108,7 @@ def test_checkoutInfoIncomplitFirstNameForm():
     assert (expectedResult == actualResult)
 
 
+
 def test_checkoutInfoIncomplitLastNameForm():
     expectedResult = "Error: Last Name is required"
     first_name = "John"

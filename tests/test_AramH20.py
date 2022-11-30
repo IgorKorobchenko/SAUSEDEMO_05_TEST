@@ -69,7 +69,6 @@ def test_checkContinueShoppingButton():
     # driver.quit()
 
 
-
 def test_checkCheckoutButton():
     expectedResult = "https://www.saucedemo.com/checkout-step-one.html"
     driver.find_element(By.XPATH, "//div[@id ='shopping_cart_container']/a/span").click()
@@ -122,7 +121,6 @@ def test_checkoutInfoIncomplitLastNameForm():
     actualResult = driver.find_element(By.XPATH, "//div[@id='checkout_info_container']/div/form/div[1]/div[4]/h3").text
     print(actualResult)
     assert (expectedResult == actualResult)
-
 
 
 def test_checkoutInfoIncomplitZIPForm():

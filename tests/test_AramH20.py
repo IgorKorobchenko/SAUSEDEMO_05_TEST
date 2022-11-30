@@ -41,7 +41,6 @@ def test_BuyItemsPage():
     assert (expectedResult2 == len(actualResult2)), "wrong number of items"
 
 
-
 def test_itemDetailsPage():
     expectedResult1 = "https://www.saucedemo.com/inventory-item.html?id=4"
     driver.find_element(By.XPATH, "//div[@id ='shopping_cart_container']/a/span").click()
@@ -68,6 +67,7 @@ def test_checkContinueShoppingButton():
     driver.find_element(By.ID, "continue-shopping").click()
     assert (driver.current_url == expectedResult)
     # driver.quit()
+
 
 
 def test_checkCheckoutButton():

@@ -1,4 +1,5 @@
 .idea/
-.geckodriver.log
+geckodriver.log
 .allurereport
 __pycache__
+.test/geckodriver.log

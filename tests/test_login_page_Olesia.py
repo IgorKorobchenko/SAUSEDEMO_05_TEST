@@ -14,13 +14,24 @@ Link_inventory='https://www.saucedemo.com/inventory.html'
 Username_valid='standard_user'
 Password_valid='secret_sauce'
 
-@pytest.fixture(scope='function')
+@pytest.fixture(scope='module')
 def browser():
     o = webdriver.FirefoxOptions()
-    o.headless = True
+    o.headless = False
     driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=o)
     yield driver
     driver.quit()
+
+#Check for presence of element on the screen. If element is not in the screen return True
+def element_is_not_present(locator):
+    try:
+        browser.find_element(locator)
+        not_found = False
+    except:
+        not_found = True
+
+    return not_found
+
 
 def test_login_page_valid(browser):
     """
@@ -57,4 +68,21 @@ def test_login_page_negative(browser,login,password,rez,exp_message):
     act_message = browser.find_element(By.XPATH, '//h3[@data-test="error"]').text
 
     assert browser.current_url == Link_mainpage and act_message==exp_message, "Login rejected"
+
+def test_login_page_close_errormessage(browser):
+    """
+    TC001.08 Login with some invalid or missed data  for username and/or password so User stays on the main page
+    https://www.saucedemo.com and error message appeared
+    Expected result: The message should be close after click on X marker
+    """
+    browser.get(Link_mainpage)
+    browser.find_element(By.ID, 'user-name').send_keys("")
+    browser.find_element(By.ID, 'password').send_keys("")
+    browser.find_element(By.ID, 'login-button').click()
+    # click to X mark on button for closing error message
+    BTN_error=(By.CSS_SELECTOR,'.error-button>svg')
+    browser.find_element(*BTN_error).click()
+    #check that message disappered from screen
+
+    assert element_is_not_present(BTN_error)
 

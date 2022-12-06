@@ -252,3 +252,27 @@ DevTools listening on ws://localhost:64525/devtools/browser/085a1e3e-a0a4-1346-b
 1668138154768	Marionette	INFO	Listening on port 64530
 1668138154879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [ERROR osclientcerts_static] ThreadId(8) C_FindObjectsInit: CKR_ARGUMENTS_BAD: ExternalError at security/manager/ssl/osclientcerts/src/backend_macos.rs:921 (-25300)
+1669923642420	geckodriver	INFO	Listening on 127.0.0.1:51093
+1669923645466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51094" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ozhen\\AppData\\Local\\Temp\\rust_mozprofilewWgX9Y"
+1669923645906	Marionette	INFO	Marionette enabled
+1669923645911	Marionette	INFO	Listening on port 51105
+Read port: 51105
+WebDriver BiDi listening on ws://127.0.0.1:51094
+1669923646047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ozhen\\AppData\\Local\\Temp\\rust_mozprofilewWgX9Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51094/devtools/browser/5611f4e3-a668-4e9e-a9bc-3b99d4228e45
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1669923651035	Marionette	INFO	Stopped listening on port 51105
+[Parent 32916, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1669923776262	geckodriver	INFO	Listening on 127.0.0.1:51222
+1669923779317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ozhen\\AppData\\Local\\Temp\\rust_mozprofileP3eQoK"
+1669923779753	Marionette	INFO	Marionette enabled
+1669923779758	Marionette	INFO	Listening on port 51233
+Read port: 51233
+WebDriver BiDi listening on ws://127.0.0.1:51223
+1669923779893	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ozhen\\AppData\\Local\\Temp\\rust_mozprofileP3eQoK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51223/devtools/browser/90901140-7596-4ed3-a9a0-cc67b1a664cb
+1669923782235	Marionette	INFO	Stopped listening on port 51233
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.

@@ -60,7 +60,6 @@ def test_go_to_description_title(browser):
     browser.find_element(*Locator_Item_title).click()
     assert browser.current_url==Item_url, 'Successfully go to description page. Test PASSED'
 
-
 # TC002.2 Check if the user go to description of item page by click image of items
 def test_see_description_img(browser):
     browser.get(Link_inventory)

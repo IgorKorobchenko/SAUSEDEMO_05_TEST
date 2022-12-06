@@ -32,7 +32,6 @@ def element_is_not_present(locator):
 
     return not_found
 
-
 def test_login_page_valid(browser):
     """
     TC001.01 Login with valid username and password

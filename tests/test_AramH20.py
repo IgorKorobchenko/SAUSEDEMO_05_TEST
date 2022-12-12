@@ -137,3 +137,53 @@ def test_checkoutInfoIncomplitZIPForm():
     actualResult = driver.find_element(By.XPATH, "//div[@id='checkout_info_container']/div/form/div[1]/div[4]/h3").text
     assert (expectedResult == actualResult)
 
+
+
+
+
+def test_SortIremsAZ():
+    driver.find_element(By.XPATH, "//div[@id='header_container']/div[2]/div[2]/span/select").click()
+    driver.find_element(By.XPATH, "//select[@class='product_sort_container']/option[@value='az']").click()
+    expectedResult = []
+    itemsList = driver.find_elements(By.CLASS_NAME, "inventory_item_name")
+    for title in itemsList:
+        expectedResult.append(title.text)
+    actualResult = sorted(expectedResult)
+
+    assert (expectedResult == actualResult)
+
+
+def test_SortIremsZA():
+    driver.find_element(By.XPATH, "//div[@id='header_container']/div[2]/div[2]/span/select").click()
+    driver.find_element(By.XPATH, "//select[@class='product_sort_container']/option[@value='za']").click()
+    expectedResult = []
+    itemsList = driver.find_elements(By.CLASS_NAME, "inventory_item_name")
+    for title in itemsList:
+        expectedResult.append(title.text)
+    actualResult = sorted(expectedResult, reverse=True)
+
+    assert (expectedResult == actualResult)
+
+
+def test_SortIremsLOHI():
+    driver.find_element(By.XPATH, "//div[@id='header_container']/div[2]/div[2]/span/select").click()
+    driver.find_element(By.XPATH, "//select[@class='product_sort_container']/option[@value='lohi']").click()
+    expectedResult = []
+    itemsList = driver.find_elements(By.CLASS_NAME, "inventory_item_price")
+    for title in itemsList:
+        expectedResult.append(title.text[1::])
+    actualResult = sorted(expectedResult, key=float)
+
+    assert (expectedResult == actualResult)
+
+
+def test_SortIremsHILO():
+    driver.find_element(By.XPATH, "//div[@id='header_container']/div[2]/div[2]/span/select").click()
+    driver.find_element(By.XPATH, "//select[@class='product_sort_container']/option[@value='hilo']").click()
+    expectedResult = []
+    itemsList = driver.find_elements(By.CLASS_NAME, "inventory_item_price")
+    for title in itemsList:
+        expectedResult.append(title.text[1::])
+    actualResult = sorted(expectedResult, reverse=True, key=float)
+
+    assert (expectedResult == actualResult)

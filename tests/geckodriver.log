@@ -252,3 +252,17 @@ DevTools listening on ws://localhost:64525/devtools/browser/085a1e3e-a0a4-1346-b
 1668138154768	Marionette	INFO	Listening on port 64530
 1668138154879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [ERROR osclientcerts_static] ThreadId(8) C_FindObjectsInit: CKR_ARGUMENTS_BAD: ExternalError at security/manager/ssl/osclientcerts/src/backend_macos.rs:921 (-25300)
+1670570994393	geckodriver	INFO	Listening on 127.0.0.1:61479
+1670570997446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61480" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile3VES9M"
+*** You are running in headless mode.
+1670570998790	Marionette	INFO	Marionette enabled
+1670570998796	Marionette	INFO	Listening on port 61496
+WebDriver BiDi listening on ws://127.0.0.1:61480
+Read port: 61496
+1670570999073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aharu\\AppData\\Local\\Temp\\rust_mozprofile3VES9M\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61480/devtools/browser/0b2a909b-e950-49a1-bd44-1db8242f9879
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
